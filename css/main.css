@@ -1,5 +1,24 @@
-* { margin: 0; padding: 0; }
-.gallery { max-width: 90%; margin: 30px auto; display: flex; flex-flow: column wrap; max-height: 1000px; }
-.gallery img { width: 25%; }
-.cardify-figure { background: #333; color: #fff; 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90%;
+}
+
+figure {
+  display: inline;
+  margin: 1em;
+  width: 25%;
+}
+
+.gallery img {
+  width: 100%;
 }
